@@ -5,6 +5,8 @@ import frameworkList, { Framework } from '../packages/frameworks';
 const frameworks = (frameworkList as Framework[]).map(frameworkItem => {
   const framework = {
     ...frameworkItem,
+    
+    
     detectors: undefined,
   };
 
